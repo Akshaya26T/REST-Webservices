@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\aksha\AppData\Local\Temp\testng-eclipse-758287033\testng-customsuite.xml</span>
+                    <span>C:\Users\aksha\AppData\Local\Temp\testng-eclipse-558388036\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.akshaya.jdo.messenger.testing.MessageResourceTest" hash-for-method="getMessagesTest">getMessagesTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.akshaya.jdo.messenger.testing.MessageResourceTest" hash-for-method="addMessageTest">addMessageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.akshaya.jdo.messenger.testing.MessageResourceTest" hash-for-method="getAllMessagesTest">getAllMessagesTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,9 +130,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getMessagesTest">
-                  </a> <!-- getMessagesTest -->
-                  <span class="method-name">getMessagesTest</span>
+                  <a name="addMessageTest">
+                  </a> <!-- addMessageTest -->
+                  <span class="method-name">addMessageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllMessagesTest">
+                  </a> <!-- getAllMessagesTest -->
+                  <span class="method-name">getAllMessagesTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\aksha\AppData\Local\Temp\testng-eclipse-758287033\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\aksha\AppData\Local\Temp\testng-eclipse-558388036\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,11 +196,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getMessagesTest')
+data.setCell(0, 1, 'addMessageTest')
 data.setCell(0, 2, 'org.akshaya.jdo.messenger.testing.MessageResourceTest')
 data.setCell(0, 3, 16);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getAllMessagesTest')
+data.setCell(1, 2, 'org.akshaya.jdo.messenger.testing.MessageResourceTest')
+data.setCell(1, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -221,8 +237,12 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">org.akshaya.jdo.messenger.testing.MessageResourceTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getMessagesTest</span>
+                <span class="method-name">addMessageTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllMessagesTest</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
