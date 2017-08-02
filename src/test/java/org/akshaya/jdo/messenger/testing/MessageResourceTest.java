@@ -14,6 +14,8 @@ import org.testng.annotations.Test;
 public class MessageResourceTest {
 	
   MessageResource messageResource = new MessageResource();
+  Map<Long, Message> messages = new HashMap<>();
+  Message message = new Message();
   @Test
   public void getAllMessagesTest() {
 	  
@@ -28,17 +30,28 @@ public class MessageResourceTest {
   @Test
   public void addMessageTest(){
 	  Assert.assertNotNull(messageResource);  
-	  Message message = new Message();
+	  
 	  message.setAuthor("Poo");
 	  message.setId(3);
 	  message.setMessage("Courageous");
 	  
-	  Map<Long, Message> messages = new HashMap<>(); 
+	   
 	  
 	  messages.put(3L, message);
 	  
 	  Assert.assertEquals(messages.get(3L).getAuthor(), "Poo");
 	  
-
+  }
+  
+  @Test
+  public void updateMessageTest(){
+	  Assert.assertEquals(messages.get(3L).getAuthor(), "Poo");
+	  
+	  message.setAuthor("Poovi");
+	  message.setId(3);
+	  message.setMessage("Terrific");
+	  messages.put(3L,message);
+	  
+	  Assert.assertEquals(messages.get(3L).getAuthor(), "Poovi");
   }
 }
