@@ -5,7 +5,7 @@
     <classes>
       <class name="org.akshaya.jdo.messenger.testing.MessageResourceTest">
         <methods>
-          <include name="getMessagesTest"/>
+          <include name="addMessageTest"/>
         </methods>
       </class> <!-- org.akshaya.jdo.messenger.testing.MessageResourceTest -->
     </classes>

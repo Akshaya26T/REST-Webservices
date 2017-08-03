@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50" started-at="2017-08-02T18:49:05Z" finished-at="2017-08-02T18:49:05Z">
+  <suite name="Default suite" duration-ms="69" started-at="2017-08-03T04:11:53Z" finished-at="2017-08-03T04:11:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50" started-at="2017-08-02T18:49:05Z" finished-at="2017-08-02T18:49:05Z">
+    <test name="Default test" duration-ms="69" started-at="2017-08-03T04:11:53Z" finished-at="2017-08-03T04:11:53Z">
       <class name="org.akshaya.jdo.messenger.testing.MessageResourceTest">
-        <test-method status="PASS" signature="addMessageTest()[pri:0, instance:org.akshaya.jdo.messenger.testing.MessageResourceTest@396a51ab]" name="addMessageTest" duration-ms="15" started-at="2017-08-02T11:49:05Z" finished-at="2017-08-02T11:49:05Z">
+        <test-method status="PASS" signature="addMessageTest()[pri:0, instance:org.akshaya.jdo.messenger.testing.MessageResourceTest@5034c75a]" name="addMessageTest" duration-ms="15" started-at="2017-08-02T21:11:53Z" finished-at="2017-08-02T21:11:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMessageTest -->
-        <test-method status="PASS" signature="getAllMessagesTest()[pri:0, instance:org.akshaya.jdo.messenger.testing.MessageResourceTest@396a51ab]" name="getAllMessagesTest" duration-ms="0" started-at="2017-08-02T11:49:05Z" finished-at="2017-08-02T11:49:05Z">
+        <test-method status="PASS" signature="getAllMessagesTest()[pri:0, instance:org.akshaya.jdo.messenger.testing.MessageResourceTest@5034c75a]" name="getAllMessagesTest" duration-ms="18" started-at="2017-08-02T21:11:53Z" finished-at="2017-08-02T21:11:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllMessagesTest -->
-        <test-method status="PASS" signature="updateMessageTest()[pri:0, instance:org.akshaya.jdo.messenger.testing.MessageResourceTest@396a51ab]" name="updateMessageTest" duration-ms="0" started-at="2017-08-02T11:49:05Z" finished-at="2017-08-02T11:49:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateMessageTest -->
       </class> <!-- org.akshaya.jdo.messenger.testing.MessageResourceTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
